@@ -86,14 +86,14 @@ function getCloser(targetNum, guessNum, previousNum) {
        // $('h2#feedback').remove('p');
         console.log('warmer');
        // $('h2#feedback').append("<p>, and getting warmer</p>");
-       $('#cars').text('warmer');
+       $('#cars').text('getting warmer...');
        return false;
 
     } else if (prevDiff < guessDiff) {
         //$('h2#feedback').remove('p');
         console.log('colder');
         //$('h2#feedback').append("<p>, and getting colder</p>");
-        $('#cars').text('colder');
+        $('#cars').text('getting colder...');
         return false;
 
     } else if (prevDiff == guessDiff) {
